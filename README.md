@@ -9,7 +9,7 @@ Weddings. They're so stressful they often undermine the success of the endeavor 
 
 Here's a .gif demonstrating what your implementation should do.
 
-![Sample GIF of Final Product](./demo.gif)
+![Sample GIF of Final Product][demo]
 
 ### Requirements
 
@@ -23,5 +23,6 @@ Here's a .gif demonstrating what your implementation should do.
 While you're going to use form input elements, you will not be submitting data to a remote server. You'll be using the power of JavaScript to do live, on-screen updates. Adding persistence will come in a later iteration ;).
 
 
+[demo]: https://curriculum-content.s3.amazonaws.com/fswb-assets/wedding-invitation-previewer/wedding_previewer_demo.gif
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/wedding-invitation-previewer'>Wedding Invitation Previewer</a> on Learn.co and start learning to code for free.</p>
