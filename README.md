@@ -9,6 +9,8 @@ Weddings. They're so stressful they often undermine the success of the endeavor 
 
 Here's a .gif demonstrating what your implementation should do.
 
+![Sample GIF of Final Product](./demo.gif)
+
 ### Requirements
 
 1. Couples should be able to choose between 3 possible invitation styles. Upon selecting a design, the screen should instantly update with the new look-and-feel
