@@ -37,6 +37,6 @@ to a remote server. You'll be using the power of JavaScript to do live,
 on-screen updates. Adding persistence will come in a later iteration ;).
 
 
-[demo]: https://curriculum-content.s3.amazonaws.com/fswb-assets/wedding-invitation-previewer/wedding_previewer_demo.gif
+[demo]: http://curriculum-content.s3.amazonaws.com/fswb-assets/wedding_demo.gif
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/wedding-invitation-previewer'>Wedding Invitation Previewer</a> on Learn.co and start learning to code for free.</p>
