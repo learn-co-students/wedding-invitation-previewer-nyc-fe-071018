@@ -1,0 +1,191 @@
+/*Heading only*/
+header{
+  text-align:center;
+  padding: 10px;
+  color: #47484d;
+  font-family: 'Vidaloka', serif;
+  text-shadow: 2px 2px 5px #767676;
+  font-size: 25px;
+}
+/*Background only*/
+body 
+{ 
+  background-image: url('../images/backgr');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:auto;
+  width:auto;
+}
+/*Radio Button and Tabs*/
+.radio{
+  align-items: center;
+  visibility:hidden;}
+
+#tabs{
+  color: #c7c7cb;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size:22px;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+hr{
+  background-color: #dcf40f;
+  height: 2px;
+  width:50%;
+}
+
+/*Form Labels*/
+.formLabel{
+  color: #47484d;
+  font-family: 'Fira Sans Condensed', sans-serif;font-size: 18px;
+  display: none;
+}
+
+/*Form */
+#form {
+  text-align: center;
+}
+.inputData{
+  width :400px;
+  border-radius: 50px;
+  padding:25px;
+  margin:10px 0 10px;
+  background:#f3f3f3;
+  font-family: 'Fira Sans Condensed', sans-serif;font-size: 18px;
+}
+
+.inputdata:focus {
+  background:#dcf40f;
+  font-family: 'Fira Sans Condensed', sans-serif;font-size: 22px;
+  color: #00000;
+  font-weight: bolder;
+  outline:0;
+}
+
+/*Grid*/
+wrapper{
+  height:auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+/* Formal */
+.formalDisplay {
+   /*Container*/
+   width:75%;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+   /*Display Image*/
+   background: #fff;
+   background-image: url('../images/formal1');
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+.formalWriteUp{
+  /*Text*/
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding: 200px 0;
+  font-family: 'Cormorant Garamond', serif;font-size: 18px;
+  color: #7f6400;
+
+}
+
+.formalButton {
+    color: #7f6400;
+    font-weight: bolder;
+}
+
+/* Spring */
+
+.springDisplay {
+  /*Container*/
+  width:75%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  /*Display Image*/
+  background: #fff;
+  background-image: url('../images/spring2');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.springWriteUp{
+  /*Text*/
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding: 230px 0;
+  width: 200px;
+  
+  font-family: 'Sacramento', cursive;font-size: 12px;
+  color: #587a58;
+}
+
+.springButton {
+    color: #587a58;
+    font-weight: bolder;
+}
+/* Art Deco */
+
+.artdecoDisplay {
+  /*Container*/
+  width:62%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  /*Display Image*/
+  background: #fff;
+  background-image: url('../images/artdeco2');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.artdecoWriteUp{
+  /*Text*/
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding: 200px 0;
+  width: 280px;
+  
+  font-family: 'Playball', cursive;font-size: 18px;
+  color: #b3a486;
+}
+
+.artdecoButton {
+    color: black;
+    font-weight: bolder;
+}
+/* Nothing shows unless anything is typed by the user*/
+.hideonload{
+  display:none;
+}
+/*Same line display for Initials and Names */
+#firstInitial, #secondInitial, #firstNameOne, #firstNameTwo{
+  display:inline;
+}
+
+/*Responsive Design*/
+/* I-phone mode*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  wrapper{
+    display: none;
+    }
+  }
+/* I-pad mode*/
+@media only screen and (min-width: 768px) and (max-width: 1024) {
+  }
+/* Desktop mode*/
+@media only screen and (min-width: 1024px) {
+  }

@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Fira+Sans+Condensed|Playball|Sacramento" rel="stylesheet">
+    
+  </head>
+  
+  <body>
+        <header>
+          <h1>Wedding Invitation Designer</h1>
+        </header>
+        
+        <wrapper>
+            <div class="gridElement" id="form">
+              <div id="tabs">
+                <form action="">
+                  <input class="radio" type="radio" name="weddingStyle" value="Formal"><span id="formal" >FORMAL&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                  <input class="radio" type="radio" name="weddingStyle" value="Spring"><span id="spring">SPRING&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                  <input class="radio" type="radio" name="weddingStyle" value="Art Deco"> <span id="artdeco">ART-DECO</span>
+                </form>
+              </div>
+              <hr>
+              <!--Creating the Form-->
+              <div id="inputForm1">
+                <form id="inputForm2">
+                  <br>
+                  <span class='formLabel'>First name:</span><br>
+                  <input id="firstName1" class="inputData" type="text" name="firstname1" placeholder="Enter Groom's First Name" autofocus><br>
+                  <span class='formLabel'>Second name:</span><br>
+                  <input id="firstName2" class="inputData" type="text" name="firstname2" placeholder="Enter Bride's First Name"><br>
+                  <span class='formLabel'>Last name:</span><br>
+                  <input id="lastName" class="inputData" type="text" name="lastname" placeholder="Enter couple's Last name-to-be"><br>
+                  <span class='formLabel'>Date:</span><br>
+                  <input id="date" class="inputData" type="text" name="date" placeholder="Enter Wedding Date"><br>
+                  <span class='formLabel'>Wedding Location:</span><br>
+                  <input id="address" class="inputData" type="address" name="address" placeholder="Enter Wedding Location/Address"><br>
+                </form>
+               </div>
+            </div>
+
+        <!--Creating Side display-->
+            <div class="gridElement formal hideonload" id="sideDisplay">
+                
+                <div id ="writeUp">
+                     <h1 id="firstInitial"></h1>
+                     <h1 id="secondInitial"></h1>
+                     <p id="inviteMessage">You are cordially invited to the wedding of</p>
+                     <h2 id="firstNameOne"></h2>
+                     <h2 id="firstNameTwo"></h2>
+                     <h2 id="lastNameDisplay"></h2>
+                     <h4 id="weddingDate"></h4>
+                     <h4 id="weddingLocation"></h4>
+                 </div> 
+            </div>
+        </wrapper>
+      <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
